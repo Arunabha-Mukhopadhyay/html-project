@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>final challenge 13-g</title>
+    <style>
+      div{
+        font-family: Arial;
+      }
+     .tweet{
+      display: flex;
+      flex-direction: row;
+      width: 420px;
+      margin-top: 10px;
+      margin-left: 20px;
+     }
+     .profile-picture{
+      margin-right:10px;
+     }
+     .picture{
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 30px;
+     }
+     .column{
+      flex:1;
+     }
+     .header{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+     }
+     .author{
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 5px;
+     }
+     .author-handle{
+      color:rgb(174, 173, 173);
+      font-size: 18px;
+     }
+     .overview{
+      font-size: 16px;
+     }
+     .container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-top:10px;
+     }
+     .haggu{
+      width:100px;
+      height:100px;
+      background-color: rgb(220, 220, 220);
+      margin-right: 10px;
+     }
+     .tatti{
+      flex:1;
+     }
+     .website{
+      color: rgb(111, 111, 111);
+      margin-bottom: 3px;
+     }
+     .title{
+      line-height: 22px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="profile-picture">
+        <img class="picture" src="mountain view.jpg">
+      </div>
+      <div class="column">
+        <div class="header">
+          <div class="author">Supersimple.dev</div>
+          <div class="author-handle">@SuperSimpleDev</div>
+        </div>
+        <div class="overview">
+          What is Backend web development? A complete overview. New video is up!
+        </div>
+        <div class="container">
+          <div class="haggu"></div>
+          <div class="tatti">
+            <div class="website">
+              youtube.com
+            </div>
+            <div class="title">
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
